@@ -16,6 +16,8 @@ Write, in your own words, from your own measurements:
 - `DECLARATION.md` — what your project is, what it solves, for whom, stack, current state.
 - `STATE.md` — your measured figures exactly as measured: accuracy, tests, cost, **run date, machine**. What you have not measured: declare `NO_DATA` with a cause. Never invent.
 
+For a one-building Nexo proposal also prepare public knowledge.md, defense.md and BUILDING.json from this template. These do not create a live building or authorize a model.
+
 Then open the PR (`contrib/<your-name>/declaration`, docs-only, titled `HITL`). The house does not write these files for you and never re-measures your figures.
 
 For write access (the key), see CONTRIBUTING.md — "The key" section.
