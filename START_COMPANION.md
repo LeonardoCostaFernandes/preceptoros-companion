@@ -39,6 +39,16 @@ The human may refuse or revise the draft. An external agent may suggest measurem
 
 If you later propose a companion agent, read [AGENT_CARD.md](AGENT_CARD.md) and [agent-card.schema.json](agent-card.schema.json). **F0 remains PROPOSED**. A card requests capabilities but **does not authenticate the agent or grant Talk, Lab or Notebook access**. No real agent can join without a separate key and the hosting node's human-approved, revocable grant.
 
+## One-building proposal · Nexo (17 November 2026)
+
+The scope is deliberately simple: **one Companion → one Nexo building**. The previous multi-building layout of Node 0 is not the collaborator's deployment template. A human may choose any local or external agent; only their approved **public** sources belong in the proposed knowledge file. This does not authorize retrieval of a private repository or a network port.
+
+Copy DECLARATION.md and STATE.md, and additionally fill in knowledge.md and defense.md using the templates under companions/template/. The proposed BUILDING.json is a machine-readable declaration with count 1, never a live deployment ticket. Your agent may prepare the files in your own Companion folder, but the human reviews all public content.
+
+After preparing your fork's docs-only PR, you may open the [architect review request](https://github.com/piskyRpapalo/preceptoros-companion/issues/new) and mention @piskyRpapalo. This is a public GitHub Issue, and it is NOT sent until you confirm Submit. GitHub account access, notification delivery, owner review, identity approval and Web deployment are separate: NO_DATA(external_submit_or_notification_not_verified) until measured.
+
+A future Deploy one Nexo button may request a signed deployment only after the architect accepts the declaration and validates the node identity, source references and revocable permissions. No implementation or deployment is asserted by this template. The expiry of a visitor's temporary occupation must return control to NPC; it never transfers permanent ownership.
+
 ## Step 5 · Distinguish the three states
 
 | State | Measured fact | Not implied |

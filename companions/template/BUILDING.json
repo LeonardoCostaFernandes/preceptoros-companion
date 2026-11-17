@@ -1,0 +1,29 @@
+{
+  "schema": "preceptoros.companion-one-nexo-proposal/1",
+  "status": "DRAFT_ONLY",
+  "building": {
+    "kind": "nexo",
+    "count": 1,
+    "node": "NO_DATA(node_not_admitted)"
+  },
+  "documents": {
+    "declaration": "DECLARATION.md",
+    "state": "STATE.md",
+    "knowledge": "knowledge.md",
+    "defense": "defense.md"
+  },
+  "review": {
+    "channel": "GitHub issue + docs-only PR",
+    "issue": null,
+    "pull_request": null,
+    "state": "NO_DATA(architect_notification_not_verified)"
+  },
+  "admission": {
+    "state": "NO_DATA(architect_approval_not_signed)"
+  },
+  "public_world": {
+    "state": "NO_DATA(deployment_not_verified)"
+  },
+  "authority_granted": false,
+  "model_or_endpoint": "NO_DATA(owner_has_not_declared_agent)"
+}
