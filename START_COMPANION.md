@@ -25,7 +25,7 @@ Keep secrets, private memory, access tokens, passwords, internal addresses and p
 
 Copy this prompt into an agent you choose, substituting your own companion slug and *public* project facts:
 
-> **Companion onboarding · proposal only.** Read the public preceptoros-companion repository's GROUNDTRUTH.md, GUIDE.md, CONTRIBUTING.md, CONTRACT.md and AGENT_CARD.md before editing. Help me prepare **only one Nexo building** from my public project facts: companions/MY-SLUG/DECLARATION.md, STATE.md, knowledge.md, defense.md, and BUILDING.json under the same companion directory. Knowledge sources must be public, cited and licensed or marked NO_DATA. Defense is a proposed visit-only NPC/garrison policy, not real deployment. Use the existing companions/template examples. Do not invent measurements, dates, hardware, signatures or identity; say NO_DATA with a concrete cause. Do not copy secrets, request access to private repositories, authorize actions, open network connections, sign, merge, deploy, provision keys or submit a PR in my name. Show me the complete diff and evidence first. I will review and submit a docs-only PR titled HITL from my fork on branch contrib/MY-SLUG/declaration. A declared agent card is **not** authentication, permission or a working connector. Acceptance of this PR is **not** automatic OpenWorld publication.
+> **Companion onboarding · proposal only.** Read the public preceptoros-companion repository's GROUNDTRUTH.md, GUIDE.md, CONTRIBUTING.md, CONTRACT.md and AGENT_CARD.md before editing. Help me prepare **only one building**, in companions/MY-SLUG/DECLARATION.md, STATE.md, BUILDING.md, and KNOWLEDGE_INDEX.md based on the project facts that I provide. Use the existing companions/template examples. Do not invent measurements, dates, hardware, signatures or identity; say NO_DATA with a concrete cause. Do not copy secrets, request access to private repositories, authorize actions, open network connections, sign, merge, deploy, provision keys or submit a PR in my name. Show me the complete diff and evidence first. I will review and submit a docs-only PR titled HITL from my fork on branch contrib/MY-SLUG/declaration. A declared agent card is **not** authentication, permission or a working connector. Acceptance of this PR is **not** automatic OpenWorld publication.
 
 The human may refuse or revise the draft. An external agent may suggest measurements but must not present unexecuted tests as completed.
 
@@ -33,9 +33,17 @@ The human may refuse or revise the draft. An external agent may suggest measurem
 
 1. Fork [preceptoros-companion](https://github.com/piskyRpapalo/preceptoros-companion) using your own GitHub account. The house does **not** need your account token.
 2. Create a branch in your fork called **contrib/MY-SLUG/declaration**. Replace MY-SLUG with your slug.
-3. Copy the DECLARATION.md, STATE.md, knowledge.md, defense.md and BUILDING.json templates under [companions/template/](companions/template/) into your own **companions/MY-SLUG/** directory. Keep them human-reviewed, one building only, with NO_DATA for missing evidence.
+3. Copy [DECLARATION.md](companions/template/DECLARATION.md), [STATE.md](companions/template/STATE.md), [BUILDING.md](companions/template/BUILDING.md), and [KNOWLEDGE_INDEX.md](companions/template/KNOWLEDGE_INDEX.md) into your own **companions/MY-SLUG/** directory. The folder proposes exactly **one** building; its knowledge sources remain in your own node. Keep them human-authored.
 4. Review the diff, measurements, dates and machine descriptions. For hardware outside the rack, explicitly record **NO_DATA(outside_machine_no_rack_identity)** rather than invent a fleet identity.
 5. Open a **docs-only pull request** into this repository, titled **HITL · Companion MY-SLUG declaration**. You can do this in GitHub's browser without sharing credentials with an AI.
+
+**Request review (explicit human action):** after opening the docs-only PR, use
+[One building · architect review](https://github.com/piskyRpapalo/preceptoros-companion/issues/new?template=one-building-review.md)
+to notify the architect of the PR and public building documents. GitHub requires you
+to sign in and press **Submit new issue**; the APP cannot send or publish for you.
+The maintainer's repository subscription is configured, but delivery to a device is
+**NO_DATA(notification_delivery_not_tested)**. The issue is a review request only.
+It does not replace PR review, host consent, Ed25519 signatures, or an accepted node.
 
 If you later propose a companion agent, read [AGENT_CARD.md](AGENT_CARD.md) and [agent-card.schema.json](agent-card.schema.json). **F0 remains PROPOSED**. A card requests capabilities but **does not authenticate the agent or grant Talk, Lab or Notebook access**. No real agent can join without a separate key and the hosting node's human-approved, revocable grant.
 
