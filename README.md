@@ -30,6 +30,8 @@ hilo/tasks/          collaboration tasks (renamed from odd/tasks by decree 2026-
 
 ## For companions
 
+**Begin here:** [Start as a Companion — with your own external agent](START_COMPANION.md). It prepares a human-owned declaration, not a live web node or a grant.
+
 Read GUIDE.md first (the map of the repos and your accesses), then CONTRIBUTING.md (it holds the key — how write access is requested). Declare your project in companions/<your-name>/, measure what you have, and open a docs-only PR titled HITL. A house agent (the Navigator) will read your declaration and propose doctrinal improvements — you decide what gets signed.
 
 Before proposing anything that connects your node to the ecosystem, read GROUNDTRUTH.md: the window (static web, zero external requests on load), the door (the app and its conditions), your node territory, and the ephemeral account flow. Its four doctrinal checkpoints apply to every integration PR.
