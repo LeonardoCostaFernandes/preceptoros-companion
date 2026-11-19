@@ -10,6 +10,7 @@
 ## Sources (public references only)
 | Public URL or repository path | Exact SHA-256 or immutable revision | Licence/consent | Checked on |
 | --- | --- | --- | --- |
+| https://github.com/LeonardoCostaFernandes/lab · ste_bridge/ | NO_DATA(hash_not_measured) | Apache-2.0 | 2026-11-19 |
 | NO_DATA(public_source_not_attached) | NO_DATA(hash_not_measured) | NO_DATA(reuse_not_authorized) | NO_DATA(not_checked) |
 
 Never include credentials, private knowledge bases, local network URLs, credentials, user
