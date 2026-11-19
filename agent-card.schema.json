@@ -5,7 +5,7 @@
   "description": "A card declares and requests; it never grants. Under 1,024 bytes UTF-8 (checked outside the schema). See AGENT_CARD.md.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["schema", "fixture", "agent", "contributor", "model", "key", "requests", "conditions", "authority"],
+  "required": ["schema", "fixture", "agent", "contributor", "model", "key", "requests", "conditions", "authority", "purpose"],
   "$defs": {
     "nodata": {
       "type": "object",
@@ -88,13 +88,10 @@
         }
       ]
     },
-    "authority": {"const": "none: a card declares and requests; it never grants"}
+    "authority": {"const": "none: a card declares and requests; it never grants"},
+    "purpose": {"type": "string", "minLength": 1, "maxLength": 120}
   },
   "allOf": [
-    {
-      "if": {"properties": {"fixture": {"const": false}}},
-      "then": {"properties": {"key": {"required": ["alg", "public_hex", "registry"]}}}
-    },
     {
       "if": {"properties": {"fixture": {"const": true}}},
       "then": {"properties": {"key": {"$ref": "#/$defs/nodata"}}}

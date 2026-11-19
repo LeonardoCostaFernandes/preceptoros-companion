@@ -8,9 +8,9 @@
 
 **For whom.** Content-policy reviewers, quality analysts and trainers who need consistent, explainable decisions, and anyone who wants to study policy reasoning on their own hardware without sending content to a cloud service.
 
-**Stack.** llama.cpp server (CUDA, loopback only) · Qwen2.5-3B-Instruct Q4_K_M on the owner's PC · Python standard-library tools in the owner's `lab` · Claude Code (orchestrator), Junie and Grok CLI agents under HITL.
+**Stack.** Local model on the owner's machine · Qwen2.5-3B-Instruct Q4_K_M on the owner's PC · Python standard-library tools in the owner's `lab` · Claude Code (orchestrator), Junie and Grok CLI agents under HITL.
 
-**Current state.** `CODE_EXISTS`: lab benchmark tool and tests. Local model: being installed. Policy-review pipeline: `NO_DATA(not_built)`. Android APP test: `NO_DATA(no_android_device; owner phone is iOS)`.
+**Current state.** `CODE_EXISTS`: lab benchmark tool and tests. Local model: being installed. Policy-review pipeline: `NO_DATA(not_built)`. Android APP test: `NO_DATA(no_android_device)`.
 
 **Privacy line.** Only synthetic or public examples enter this repository. No real user content, no employer or client material, ever.
 

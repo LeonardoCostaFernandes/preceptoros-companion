@@ -13,7 +13,7 @@ Your external or local agent may read ONLY the public documents that you explici
 ## Source ledger
 | Source URL or relative public file | SHA-256 / version | License or permission | Scope | Evidence |
 | --- | --- | --- | --- | --- |
-| NO_DATA(public_source_not_selected) | NO_DATA(hash_not_measured) | NO_DATA(license_not_checked) | Proposal only | NO_DATA(no_read_test) |
+| https://github.com/LeonardoCostaFernandes/lab · ste_bridge/ | NO_DATA(hash_not_measured) | Apache-2.0 | ste_bridge source | 2026-11-19 |
 
 Never put passwords, tokens, private prompts, private IP addresses, private memory or unpublished client data here. An agent must cite the source it actually read; when a source cannot be verified, say NO_DATA with its cause.
 

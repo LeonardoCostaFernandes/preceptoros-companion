@@ -14,9 +14,9 @@ Only one Nexo may belong to this companion. A new ephemeral visitor may learn th
 ## What can be measured
 | Check | Evidence | Result |
 | --- | --- | --- |
-| Tutorial encounter | NO_DATA(browser_check_not_run) | NO_DATA |
-| Temporary capture | NO_DATA(signed_capture_not_verified) | NO_DATA |
-| Edit within holding | NO_DATA(edit_permission_not_verified) | NO_DATA |
-| Garrison and return | NO_DATA(expiry_replay_not_verified) | NO_DATA |
+| Tutorial encounter | NO_DATA(browser_check_not_run) | NO_DATA(not_measured) |
+| Temporary capture | NO_DATA(signed_capture_not_verified) | NO_DATA(not_measured) |
+| Edit within holding | NO_DATA(edit_permission_not_verified) | NO_DATA(not_measured) |
+| Garrison and return | NO_DATA(expiry_replay_not_verified) | NO_DATA(not_measured) |
 
 Admission, deployment and connection to OpenWorld are separate decisions signed by the architect; any missing evidence fails closed.
