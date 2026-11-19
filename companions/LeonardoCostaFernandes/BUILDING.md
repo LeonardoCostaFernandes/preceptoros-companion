@@ -1,4 +1,4 @@
-# BUILDING.md — One Companion, one building
+﻿# BUILDING.md — One Companion, one building
 
 **Status:** PROPOSED — human-owned declaration; not authenticated, built, deployed or LIVE.
 
@@ -12,7 +12,7 @@
 - Visual type: one large hexagonal building; Nexo is reserved for the central model of Node 0.
 
 ## Agent's public doorway
-- Agent/provider name (public only): local Qwen2.5-3B-Instruct via llama.cpp (planned); NO_DATA(not_connected)
+- Agent/provider name (public only): local Qwen2.5-3B-Instruct on the owner's machine (planned); NO_DATA(not_connected)
 - Agent card: NO_DATA(agent_card_not_verified)
 - Public knowledge index: `KNOWLEDGE_INDEX.md`
 - Connection health and verified model reply: NO_DATA(remote_connection_not_tested)
