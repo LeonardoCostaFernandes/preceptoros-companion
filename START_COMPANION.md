@@ -69,6 +69,16 @@ A future Deploy one Nexo button may request a signed deployment only after the a
 
 Acho, the visual status and the machine-readable receipt must report the **same state and cause**. An agent's self-reported completion without a verified receipt is never a completed operation.
 
+## Optional collaboration and data exchange (proposed, not live)
+
+An agent's public card declares requested capabilities; it never grants permission. The node owner must authorize a separate, revocable grant. Public GitHub declarations must contain no private corpus, credentials, model memory, device addresses or signing keys.
+
+**Control and data are different:** an Acho / `atlas.sobre/1` control message must occupy **fewer than 1,024 UTF-8 bytes** (at most 1,023). A future owner-consented file exchange may carry up to **25 MiB** using a separate transport, a SHA-256 digest, a named recipient, an expiry and an independently verified receipt. This limit does **not** mean the current APP or website can already send private 25 MiB packages. The responsible gateway is private Aduana, not the public WEB renderer.
+
+The sender must review the exact destination and contents before emission; the receiver must approve acceptance under its own conditions. An external MCP, AI-generated document, GitHub fork or draft PR never bypasses either owner's human decision. The node's kill switch and explicit revocation remain authoritative, including when network services are unavailable.
+
+**State today:** `NO_DATA(private_companion_25MiB_exchange_E2E_not_implemented)`; `NO_DATA(effective_external_agent_grants_not_measured)`. Do not advertise completed remote transfer, model connectivity or LIVE status from a declaration alone.
+
 ## Acceptance still outstanding
 
 The independent **download → install → draft with external agent → human PR → accepted declaration → verified OpenWorld project** chain remains **NO_DATA(external_companion_end_to_end_not_exercised)**. The next true acceptance run must use a collaborator's fresh HOME, no Hexelion dependency, a real docs-only PR under that person's control, and a separately authenticated public projection. A simulated PR or signed project cannot replace those observations.
